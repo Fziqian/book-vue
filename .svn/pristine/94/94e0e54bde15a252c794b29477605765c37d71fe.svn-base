@@ -1,0 +1,30 @@
+<template>
+  <transition name="move">
+    <div class="all" v-show="showRecharge">
+      <div>
+        <span @click="goBack()"><</span>
+        <span>充值</span>
+      </div>
+    </div>
+  </transition>
+</template>
+<script>
+  export default {
+    data () {
+      return {
+        showRecharge: false
+      }
+    },
+    methods: {
+      show () {
+        this.showRecharge = true
+      },
+      goBack () {
+        this.showRecharge = false
+      }
+    }
+  }
+</script>
+<style>
+
+</style>

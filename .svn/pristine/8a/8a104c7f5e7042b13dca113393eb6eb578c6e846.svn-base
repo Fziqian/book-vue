@@ -1,0 +1,42 @@
+<template>
+  <transition name="move">
+    <div class="pro" v-show="showProblem">
+      <div>
+        <span @click="goBack()"><</span>
+        <span>常见问题</span>
+      </div>
+    </div>
+  </transition>
+
+</template>
+<script>
+  export default {
+    data () {
+      return {
+        showProblem: false,
+        isMy: true
+      }
+    },
+    methods: {
+      show () {
+        this.showProblem = true
+      },
+      goBack () {
+        this.showProblem = false
+        this.$emit('isMy', this.isMy)
+      }
+    }
+
+  }
+</script>
+<style>
+  .pro{
+    background: #fff;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    z-index:100;
+    top: 0;
+    left: 0
+  }
+</style>

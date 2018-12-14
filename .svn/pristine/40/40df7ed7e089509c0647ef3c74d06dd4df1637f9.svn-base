@@ -1,0 +1,18 @@
+<!--
+  User: fanqingyu
+  Date: 2017/6/6 15:51
+  功能：扫描页结果详情
+-->
+
+<template>
+  <div class="scanDetail"></div>
+
+</template>
+
+<script>
+
+</script>
+
+<style>
+
+</style>

@@ -1,0 +1,144 @@
+<!--
+  User: fanqingyu
+  Date: 2017/6/5 17:36
+  功能：绘本详情
+-->
+
+<template>
+
+    <div>
+      <transition name="move">
+        <div class="bookDetail" v-show="selectedBook">
+          <div class="title">
+            <span class="back" @click="hide()"><</span>
+            <span class="text">绘本详情</span>
+            <span class="share">分享</span>
+          </div>
+          <div class="content">
+            <span>{{book.name}}</span>
+            <span>{{book.barCode}}</span>
+            <span>{{book.author}}</span>
+            <span class="more" @click="more()">查看该系列其它丛书</span>
+          </div>
+          <div class="borrowShop">
+            <span class="item borrowstand" @click="toBorrowStand()">借书架</span>
+            <span class="item collect">收藏</span>
+            <span class="item borrow">借阅</span>
+          </div>
+        </div>
+      </transition>
+      <seriesBook ref="seriesBook"></seriesBook>
+      <borrowStand ref="borrowStand"></borrowStand>
+    </div>
+</template>
+
+<script>
+  import seriesBook from '../seriesBook/seriesBook.vue'
+  import borrowStand from '../borrowStand/borrowStand.vue'
+  export default {
+    props: {
+      book: {
+        type: Object
+      }
+    },
+    data () {
+      return {
+        selectedBook: false
+      }
+    },
+    methods: {
+      show () {
+        this.selectedBook = true
+      },
+      hide () {
+        this.selectedBook = false
+      },
+      more () {
+        this.$refs.seriesBook.show()
+      },
+      toBorrowStand () {
+        this.$refs.borrowStand.show()
+      }
+    },
+    components: {
+      seriesBook,
+      borrowStand
+    }
+  }
+</script>
+
+
+<style>
+  .bookDetail{
+    position: fixed;
+    left: 0;
+    top: 0;
+    bottom: 50px;
+    width: 100%;
+    background: #fff;
+    z-index: 20;
+  }
+  .move-enter-active, .move-leave-active {
+    transition: all 0.3s linear;
+    transform: translate3d(0, 0, 0);
+  }
+  .move-enter, .move-leave-active {
+    opacity: 0;
+    transform: translate3d(100%, 0, 0);
+  }
+  .bookDetail .title {
+    width: 100%;
+    display: flex;
+    text-align: center;
+    line-height: 40px;
+    height: 40px;
+    font-size: 18px;
+    font-weight: 600;
+    position: relative;
+  }
+  .bookDetail .title .back {
+    display: inline-block;
+    flex: 0 0 50px;
+    width: 40px;
+    height: 40px;
+  }
+  .bookDetail .title .back,.bookDetail .title .share {
+    display: inline-block;
+    flex: 0 0 50px;
+    width: 40px;
+    height: 40px;
+    font-size: 14px;
+    line-height: 40px;
+  }
+  .bookDetail .title .text {
+    display: inline-block;
+    flex: 1;
+    height: 40px;
+    text-align: center;
+    line-height: 40px;
+  }
+  .bookDetail .content span {
+    display: block;
+  }
+  .borrowShop {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    display: flex;
+    line-height: 40px;
+    z-index: 30;
+    width: 100%;
+    height: 40px;
+    border-top: 1px solid #ccc;
+    text-align: center;
+    background: #fff;
+  }
+  .borrowShop .item {
+    display: inline-block;
+    flex: 1;
+  }
+  .borrowShop .borrow {
+    background: #eab922;
+  }
+
+</style>

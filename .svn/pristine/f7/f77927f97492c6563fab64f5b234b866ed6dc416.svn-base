@@ -1,0 +1,39 @@
+<template>
+  <transition name="move">
+    <div class="library" v-show="showLib">
+      <div>
+        <span @click="goBack()"><</span>
+        <span>借书架</span>
+      </div>
+    </div>
+  </transition>
+</template>
+<script>
+  export default {
+    data () {
+      return {
+        showLib: false
+      }
+    },
+    methods: {
+      show () {
+        this.showLib = true
+      },
+      goBack () {
+        this.showLib = false
+        this.$emit('isMy', 'true')
+      }
+    }
+  }
+</script>
+<style>
+  .library{
+    background: #fff;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    z-index:100;
+    top: 0;
+    left: 0
+  }
+</style>

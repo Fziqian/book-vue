@@ -1,0 +1,25 @@
+<!--
+
+  User: fanqingyu
+
+  Date: 2017/6/5 9:56
+
+  功能：
+
+-->
+
+<template>
+  <div>im a studentsCircle</div>
+
+</template>
+
+
+<script>
+  export default {}
+</script>
+
+
+<style>
+
+
+</style>

@@ -1,0 +1,81 @@
+<!--
+
+  User: fanqingyu
+
+  Date: 2017/6/6 9:42
+
+  功能：
+
+-->
+
+<template>
+  <transition name="move">
+    <div class="searchDetail" v-show="showSearch">
+      <div class="title">
+        <span class="back" @click="hide()"><</span>
+        <span>
+          <i></i>
+          <input type="text" class="input" placeholder="请输入关键字">
+        </span>
+        <span class="text">搜索</span>
+      </div>
+      <div class="content"></div>
+    </div>
+  </transition>
+</template>
+
+<script>
+  export default {
+    data () {
+      return {
+        showSearch: false
+      }
+    },
+    methods: {
+      show () {
+        this.showSearch = true
+      },
+      hide () {
+        this.showSearch = false
+      }
+    }
+  }
+</script>
+
+
+<style>
+  .searchDetail {
+    position: fixed;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    width: 100%;
+    background: #fff;
+    z-index: 20;
+  }
+  .move-enter-active, .move-leave-active {
+    transition: all 0.3s linear;
+    transform: translate3d(0, 0, 0);
+  }
+  .move-enter, .move-leave-active {
+    opacity: 0;
+    transform: translate3d(100%, 0, 0);
+  }
+  .searchDetail .title {
+    width: 100%;
+    display: flex;
+    text-align: center;
+    line-height: 40px;
+    height: 40px;
+    font-size: 18px;
+    font-weight: 600;
+    position: relative;
+  }
+  .searchDetail .back {
+    display: inline-block;
+    flex: 0 0 50px;
+    width: 40px;
+    height: 40px;
+  }
+
+</style>

@@ -1,0 +1,60 @@
+<template>
+  <transition name="move">
+    <div class="all" v-show="showBurse">
+        <div>
+          <span @click="goBack()"><</span>
+          <span>钱包</span>
+        </div>
+      <div>
+        <span>100￥</span>
+        <span @click="bankMg">银行卡管理</span>
+        <span @click="goRecharge">充值</span>
+        <span @click="goTx">提现</span>
+      </div>
+    <bank ref="bankCard" @isBurse="showMsg"></bank>
+    <withdrawals ref="getMoney" @isBurse="showMsg"></withdrawals>
+    <recharge ref="recharged" @isBurse="showMsg"></recharge>
+    </div>
+  </transition>
+</template>
+<script>
+  import bank from '../bank/bank.vue'
+  import withdrawals from '../withdrawals/withdrawals.vue'
+  import recharge from '../recharge/recharge.vue'
+  export default {
+    data () {
+      return {
+        showBurse: false
+      }
+    },
+    methods: {
+      showMsg (data) {
+        console.log(data)
+      },
+      show () {
+        this.showBurse = true
+      },
+      goBack () {
+        this.showBurse = false
+        this.$emit('isMy', 'true')
+      },
+      bankMg () {
+        this.$refs.bankCard.show()
+      },
+      goTx () {
+        this.$refs.getMoney.show()
+      },
+      goRecharge () {
+        this.$refs.recharged.show()
+      }
+    },
+    components: {
+      'bank': bank,
+      'withdrawals': withdrawals,
+      'recharge': recharge
+    }
+  }
+</script>
+<style>
+
+</style>

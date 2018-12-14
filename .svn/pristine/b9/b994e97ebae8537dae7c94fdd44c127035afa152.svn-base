@@ -1,0 +1,41 @@
+<template>
+  <transition name="move">
+    <div class="about" v-show="showAs">
+      <div>
+        <span @click="goBack()"><</span>
+        <span>关与我们</span>
+      </div>
+    </div>
+  </transition>
+</template>
+<script>
+  export default {
+    data () {
+      return {
+        showAs: false,
+        isMy: true
+      }
+    },
+    methods: {
+      show () {
+        this.showAs = true
+      },
+      goBack () {
+        this.showAs = false
+        this.$emit('isMy', this.isMy)
+      }
+    }
+  }
+</script>
+<style>
+  .about{
+    background: #fff;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    z-index:100;
+    top: 0;
+    left: 0
+  }
+</style>
+

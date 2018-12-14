@@ -1,0 +1,36 @@
+<template>
+  <transition name="move">
+    <div class="bank" v-show="showBank">
+      <span @click="goBack()"><</span>
+      <span>银行卡管理</span>
+    </div>
+  </transition>
+</template>
+<script>
+  export default {
+    data () {
+      return {
+        showBank: false
+      }
+    },
+    methods: {
+      show () {
+        this.showBank = true
+      },
+      goBack () {
+        this.showBank = false
+      }
+    }
+  }
+</script>
+<style>
+  .bank{
+    background: #fff;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    z-index:100;
+    top: 0;
+    left: 0
+  }
+</style>

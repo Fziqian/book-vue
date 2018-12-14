@@ -1,0 +1,86 @@
+<!--
+  User: fanqingyu
+  Date: 2017/6/7 9:39
+  功能：筛选页面
+-->
+
+<template>
+  <transition name="move">
+    <div class="filterDetail" v-show="showFlag">
+      <div class="title">
+        <span class="back" @click="hide()"><</span>
+        <span class="text">筛选</span>
+      </div>
+      <div class="content">
+        <div class="selectAge">
+          <div class="desc">
+            请选择年龄(单选)
+          </div>
+          <ul>
+            <li>0-3岁</li>
+            <li>3-7岁</li>
+            <li>7岁以上</li>
+          </ul>
+        </div>
+        <div class="selectTheme">
+          <div class="desc">
+            请选择主题(单选)
+          </div>
+          <ul>
+            <li>童话</li>
+            <li>神话</li>
+            <li>教育</li>
+            <li>科技</li>
+            <li>童话</li>
+            <li>神话</li>
+            <li>教育</li>
+            <li>科技</li>
+            <li>童话</li>
+            <li>神话</li>
+            <li>教育</li>
+            <li>科技</li>
+          </ul>
+        </div>
+        <div class="submit">确认</div>
+      </div>
+    </div>
+  </transition>
+</template>
+
+<script>
+  export default {
+    data () {
+      return {
+        showFlag: false
+      }
+    },
+    methods: {
+      show () {
+        this.showFlag = true
+      },
+      hide () {
+        this.showFlag = false
+      }
+    }
+  }
+</script>
+
+<style>
+  .filterDetail {
+    position: fixed;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    width: 100%;
+    background: #fff;
+    z-index: 20;
+  }
+  .move-enter-active, .move-leave-active {
+    transition: all 0.3s linear;
+    transform: translate3d(0, 0, 0);
+  }
+  .move-enter, .move-leave-active {
+    opacity: 0;
+    transform: translate3d(100%, 0, 0);
+  }
+</style>

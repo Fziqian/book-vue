@@ -1,0 +1,36 @@
+/**
+ * Created by sjs-fqy on 2017/6/14.
+ */
+import Vue from 'vue'
+import Router from 'vue-router'
+import home from 'components/home/home.vue'
+import friends from 'components/friends/friends.vue'
+import scan from 'components/scan/scan.vue'
+import chooseBooks from 'components/chooseBooks/chooseBooks.vue'
+import mys from 'components/my/mys/mys.vue'
+
+Vue.use(Router)
+
+export default new Router({
+  routes: [
+    {
+      path: '/',
+      redirect: '/home'
+    }, {
+      path: '/home',
+      component: home
+    }, {
+      path: '/friends',
+      component: friends
+    }, {
+      path: '/scan',
+      component: scan
+    }, {
+      path: '/chooseBooks',
+      component: chooseBooks
+    }, {
+      path: '/mys',
+      component: mys
+    }],
+  linkActiveClass: 'active'
+})

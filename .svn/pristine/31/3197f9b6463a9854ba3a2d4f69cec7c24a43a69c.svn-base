@@ -1,0 +1,83 @@
+<template>
+  <transition name="move">
+    <div v-show="showFlag" ref="myInfo" class="myInfo">
+      <ul>
+        <li @click="goBack"><</li>
+        <li>{{myInfo.a}}</li>
+        <li>保存</li>
+      </ul>
+      <div>
+        <span>头像</span>
+        <img src="dd" alt="" width="50" height="50" style="border-radius: 50%">
+      </div>
+      <ul>
+        <li>
+          <span>昵称</span>
+          <span>baby</span>
+        </li>
+        <li>
+          <span>姓名</span>
+          <span>顾小白</span>
+        </li>
+        <li>
+          <span>性别</span>
+          <span>男</span>
+        </li>
+        <li>
+          <span>地区</span>
+          <span>湖北武汉</span>
+        </li>
+      </ul>
+      <ul>
+        <li>
+          <span>收货地址</span>
+          <span>武汉市淮上区</span>
+        </li>
+        <li>
+          <span>修改密码</span>
+        </li>
+        <li>
+          <span>退出登录</span>
+        </li>
+      </ul>
+    </div>
+  </transition>
+
+</template>
+<style>
+  .myInfo{
+    background: #fff;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    z-index:100;
+    top: 0;
+    left: 0
+
+  }
+
+</style>
+<script>
+  export default {
+    props: {
+      myInfo: {
+        type: Object
+      }
+    },
+    data () {
+      return {
+        showFlag: false,
+        isMy: true
+      }
+    },
+    methods: {
+      show () {
+        this.showFlag = true
+      },
+      goBack () {
+        this.showFlag = false
+        this.$emit('isMy', this.isMy)
+      }
+    }
+  }
+</script>

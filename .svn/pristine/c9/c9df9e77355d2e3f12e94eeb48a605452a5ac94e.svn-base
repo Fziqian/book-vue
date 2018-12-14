@@ -1,0 +1,137 @@
+<!--
+  User: fanqingyu
+  Date: 2017/6/6 11:36
+  功能：借书架页面
+-->
+
+<template>
+  <div>
+    <transition name="move">
+      <div class="borrowStand" v-show="showFlag">
+        <div class="title">
+          <span class="back" @click="hide()"><</span>
+          <span class="text">借书架</span>
+          <span class="scan">扫描</span>
+        </div>
+        <div class="content"></div>
+        <div class="foot">
+          <div class="selectAll">全选</div>
+          <div class="price">
+            <span class="count">押金合计：￥40元</span>
+            <span class="desc">不含运费</span>
+          </div>
+          <div class="pay" @click="comfirm()">提交</div>
+        </div>
+      </div>
+    </transition>
+    <comfirmPay ref="comfirmPay"></comfirmPay>
+  </div>
+</template>
+
+<script>
+  import comfirmPay from '../comfirmPay/comfirmPay.vue'
+  export default {
+    data () {
+      return {
+        showFlag: false
+      }
+    },
+    methods: {
+      show () {
+        this.showFlag = true
+      },
+      hide () {
+        this.showFlag = false
+      },
+      comfirm () {
+        this.$refs.comfirmPay.show()
+      }
+    },
+    components: {
+      comfirmPay
+    }
+  }
+</script>
+
+<style>
+  .borrowStand {
+    position: fixed;
+    left: 0;
+    top: 0;
+    bottom: 40px;
+    width: 100%;
+    background: #fff;
+    z-index: 20;
+  }
+  .move-enter-active, .move-leave-active {
+    transition: all 0.3s linear;
+    transform: translate3d(0, 0, 0);
+  }
+  .move-enter, .move-leave-active {
+    opacity: 0;
+    transform: translate3d(100%, 0, 0);
+  }
+  .borrowStand .title {
+    width: 100%;
+    display: flex;
+    text-align: center;
+    line-height: 40px;
+    height: 40px;
+    font-size: 18px;
+    font-weight: 600;
+    position: relative;
+  }
+  .borrowStand .title .back {
+    display: inline-block;
+    flex: 0 0 50px;
+    width: 40px;
+    height: 40px;
+  }
+  .borrowStand .title .back,.borrowStand .title .scan {
+    display: inline-block;
+    flex: 0 0 50px;
+    width: 40px;
+    height: 40px;
+    font-size: 14px;
+    line-height: 40px;
+  }
+  .borrowStand .title .text {
+    display: inline-block;
+    flex: 1;
+    height: 40px;
+    text-align: center;
+    line-height: 40px;
+  }
+  .borrowStand .foot{
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    display: flex;
+    line-height: 40px;
+    z-index: 30;
+    width: 100%;
+    height: 40px;
+    border-top: 1px solid #ccc;
+    text-align: center;
+    background: #fff;
+  }
+  .borrowStand .selectAll {
+    display: inline-block;
+    flex: 0 0 100px;
+  }
+  .borrowStand .price {
+    display: inline-block;
+    flex: 1;
+  }
+  .borrowStand .price span{
+    display: block;
+    line-height: 20px;
+    font-size: 12px;
+  }
+  .borrowStand .pay {
+    display: inline-block;
+    flex: 0 0 100px;
+    background: #eab922;
+  }
+
+</style>

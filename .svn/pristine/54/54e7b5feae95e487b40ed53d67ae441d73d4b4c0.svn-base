@@ -1,0 +1,160 @@
+<!--
+
+  User: fanqingyu
+
+  Date: 2017/6/5 9:48
+
+  功能： 选书页面
+
+-->
+
+<template>
+  <div class="chooseBooks">
+    <div v-show="showChoose">
+      <div class="title">
+        <span class="text">选书</span>
+        <span class="icon" @click="searchDetail()">O</span>
+      </div>
+      <ul class="tab">
+        <li class="tab-item" @click="toggle(1, $event)" :class="{'active': selectTab === 1}">热度</li>
+        <li class="tab-item" @click="filter()">筛选</li>
+      </ul>
+      <div class="list">
+        <ul class="books">
+          <li class="book-item" v-for="item in books" @click="selectBook(item)">
+            <img src="https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1497249338&di=e479912b98055c6636a2cbecab05070c&imgtype=jpg&er=1&src=http%3A%2F%2Fwww.li96.com%2Fimg%2Fallimg%2F201409%2F1411a5I01SF-2VK7.jpg" alt="">
+            <span class="name">{{item.name}}</span>
+          </li>
+        </ul>
+      </div>
+    </div>
+    <filterDetail ref="filter"></filterDetail>
+    <bookDetail :book="selectedBook" ref="book"></bookDetail>
+    <searchDetail ref="search"></searchDetail>
+  </div>
+</template>
+
+
+<script>
+  /* eslint-disable no-unused-vars */
+  import axios from 'axios'
+  import bookDetail from './bookDetail/bookDetail'
+  import searchDetail from './searchDetail/searchDeatil.vue'
+  import filterDetail from './filterDetail/filterDetail.vue'
+  const HOT = 1
+  const FILTER = 2
+
+  export default {
+    data () {
+      return {
+        showChoose: true,
+        books: [],
+        selectTab: 1,
+        selectedBook: {}
+      }
+    },
+    created () {
+      // 获取选书数据
+      axios.get('/api/chooseBooks').then((res) => {
+        this.books = res.data.data
+      })
+    },
+    methods: {
+      // tab切换，改变selectTab的值来动态切换
+      toggle (type, event) {
+        this.selectTab = type
+      },
+      // 点击书的详情页面
+      selectBook (item) {
+        this.selectedBook = item
+        this.$refs.book.show()
+      },
+      // 搜索详情页面
+      searchDetail () {
+        this.$refs.search.show()
+      },
+      // 筛选页面
+      filter () {
+        this.$refs.filter.show()
+      }
+    },
+    components: {
+      bookDetail,
+      searchDetail,
+      filterDetail
+    }
+  }
+
+</script>
+
+
+<style>
+  .chooseBooks {
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+  }
+  .chooseBooks .title {
+    width: 100%;
+    text-align: center;
+    line-height: 40px;
+    height: 40px;
+    font-size: 18px;
+    font-weight: 600;
+    position: relative;
+  }
+  .chooseBooks .title .text {
+    display: block;
+    width: 100%;
+    text-align: center;
+  }
+  .chooseBooks .title .icon {
+    display: block;
+    position: absolute;
+    right: 0;
+    top: 0;
+    width: 40px;
+    height: 40px;
+  }
+  .chooseBooks .tab {
+    width: 100%;
+    height: 40px;
+    line-height: 40px;
+    display: flex;
+    border-bottom: 1px solid #ccc;
+  }
+  .chooseBooks .tab .tab-item {
+    flex: 1;
+    text-align: center;
+  }
+  .tab .active {
+    color: red;
+  }
+  .chooseBooks .list {
+    overflow: hidden;
+    bottom: 50px;
+    position: absolute;
+    top: 80px;
+    width: 100%;
+    text-align: center;
+  }
+  .chooseBooks .list .books{
+    display: block;
+    margin: 20px 20px;
+  }
+  .list li {
+    display: block;
+    width: 33%;
+    float: left;
+    padding: 10px;
+    box-sizing:border-box;
+  }
+  .list .book-item img {
+    width: 100%;
+    float: left;
+  }
+  .list .book-item .name {
+    font-size: 12px;
+    color: #ccc;
+  }
+</style>

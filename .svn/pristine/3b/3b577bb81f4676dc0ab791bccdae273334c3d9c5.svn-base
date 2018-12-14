@@ -1,0 +1,147 @@
+<template>
+    <div class="my">
+      <div v-show="isMy">
+        <h2>我的</h2>
+        <div class="uesrInfo">
+          <img @click="userInfo()" src="logo.png" height="50" width="50" />
+          <span>baby</span>
+          <span>家长</span>
+          <span @click="userInfo()">个人信息</span>
+        </div>
+        <ul class="burse">
+          <li @click="goBurse">
+            <p>100</p>
+            <p>钱包</p>
+          </li>
+          <li @click="goCol">
+            <p>7</p>
+            <p>收藏</p>
+          </li>
+          <li @click="goLib">
+            <p>4</p>
+            <p>借书架</p>
+          </li>
+        </ul>
+        <div>
+          <p @click="goMg">图书管理</p>
+          <p @click="order">我的订单</p>
+          <p @click="goAddress">地址管理</p>
+          <p @click="goBookcard">VIP读书卡</p>
+        </div>
+        <div>
+          <p @click="goPro">常见问题</p>
+          <p @click="goFeed">意见反馈</p>
+          <p @click="goAs">关于我们</p>
+        </div>
+      </div>
+      <myInfo ref="myInfo" :myInfo="info" @isMy="showMsg"></myInfo>
+      <booksMg ref="booksMg" @isMy="showMsg"></booksMg>
+      <order ref="order" :order="order" @isMy="showMsg"></order>
+      <add ref="add" @isMy="showMsg"></add>
+      <bookCard ref="card" @isMy="showMsg"></bookCard>
+      <problem ref="pro" @isMy="showMsg"></problem>
+      <feedback ref="feed" @isMy="showMsg"></feedback>
+      <aboutas ref="about" @isMy="showMsg"></aboutas>
+      <money ref="mon" @isMy="showMsg"></money>
+      <collection ref="col" @isMy="showMsg"></collection>
+      <library ref="lib" @isMy="showMsg"></library>
+    </div>
+</template>
+<script>
+  import myInfo from '../myInfo/myInfo.vue'
+  import booksMg from '../books-management/booksManagement.vue'
+  import order from '../order/order.vue'
+  import add from '../address/address.vue'
+  import bookCard from '../vip/vip.vue'
+  import problem from '../problem/problem.vue'
+  import feedback from '../feedback/feedback.vue'
+  import aboutas from '../about-us/aboutAs.vue'
+  import money from '../money/money.vue'
+  import collection from '../collection/collection.vue'
+  import library from '../library/library.vue'
+  export default {
+    data () {
+      return {
+        info: {},
+        isMy: true
+      }
+    },
+    methods: {
+      showMsg (data) {
+        console.log(data)
+        this.isMy = data
+      },
+      userInfo () {
+        this.info = {a: 111}
+        this.$refs.myInfo.show()
+        this.isMy = false
+      },
+      order () {
+        this.$refs.order.show()
+        this.isMy = false
+      },
+      goMg () {
+        this.isMy = false
+        this.$refs.booksMg.show()
+      },
+      goAddress () {
+        this.isMy = false
+        this.$refs.add.show()
+      },
+      goBookcard () {
+        this.isMy = false
+        this.$refs.card.show()
+      },
+      goPro () {
+        this.isMy = false
+        this.$refs.pro.show()
+      },
+      goFeed () {
+        this.isMy = false
+        this.$refs.feed.show()
+      },
+      goAs () {
+        this.isMy = false
+        this.$refs.about.show()
+      },
+      goBurse () {
+        this.isMy = false
+        this.$refs.mon.show()
+      },
+      goCol () {
+        this.isMy = false
+        this.$refs.col.show()
+      },
+      goLib () {
+        this.isMy = false
+        this.$refs.lib.show()
+      }
+    },
+    components: {
+      'myInfo': myInfo,
+      'booksMg': booksMg,
+      'order': order,
+      'add': add,
+      'bookCard': bookCard,
+      'problem': problem,
+      'feedback': feedback,
+      'aboutas': aboutas,
+      'money': money,
+      'collection': collection,
+      'library': library
+    }
+  }
+</script>
+
+<style>
+  .burse{
+    display: flex;
+    flex-direction: row;
+  }
+  .burse li{
+    flex: 1;
+    text-align: center;
+    height: 40px;
+    line-height: 20px
+  }
+</style>

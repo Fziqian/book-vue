@@ -1,0 +1,30 @@
+<template>
+  <transition name="move">
+    <div class="all" v-show="showWd">
+      <div>
+        <span @click="goBack()"><</span>
+        <span>提现</span>
+      </div>
+    </div>
+  </transition>
+</template>
+<script>
+  export default {
+    data () {
+      return {
+        showWd: false
+      }
+    },
+    methods: {
+      show () {
+        this.showWd = true
+      },
+      goBack () {
+        this.showWd = false
+      }
+    }
+  }
+</script>
+<style>
+
+</style>

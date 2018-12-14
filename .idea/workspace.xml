@@ -1,0 +1,1643 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="dd2b5ebf-68dd-43ab-a517-02151bf09d15" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/api" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/base" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/base/borrowControl" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/base/confirm" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/base/dialog-mask" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/base/dialog-prompt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/base/footer-tab" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/base/input-box" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/base/left-slide" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/base/loading" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/base/loading/loading.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/base/no-result" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/base/no-result/logoDefault.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/base/progress-bar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/base/progress-circle" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/base/scroll" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/base/search-box" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/base/split" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/base/textarea" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/common" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/common/css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/common/fonts" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/common/fonts/iconfont.eot" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/common/fonts/iconfont.ttf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/common/fonts/iconfont.woff" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/common/image" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/common/image/default.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/common/image/homeDefault.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/common/js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/components/chooseBooks/bookFilter" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/components/chooseBooks/booklist" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/components/chooseBooks/booklist/default.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/components/chooseBooks/booklist/noBorrow.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/components/chooseBooks/booklist/okBorrow.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/components/chooseBooks/index" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/components/chooseBooks/orderSuccess/order_ok.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/components/chooseBooks/orderSuccess/order_ok_bg.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/components/friends/comment" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/components/friends/friends" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/components/friends/release/add.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/components/friends/release/del.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/components/friends/release/icon-del.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/components/home/bookList" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/components/home/homeSearch" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/components/home/homeType" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/components/home/homelist" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/components/home/homelist/default.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/components/home/index" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/components/home/line/line.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/components/home/line/no-listen.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/components/home/listenList" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/components/home/listenList/default.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/components/home/player" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/components/home/readDetail/default.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/components/login" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/components/login/code.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/components/login/login_bg.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/components/login/moyue_logo.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/components/login/phone.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/components/login/pwd.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/components/my/about-us/icon_coop.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/components/my/about-us/icon_email.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/components/my/about-us/icon_qq.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/components/my/about-us/icon_web.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/components/my/about-us/icon_weixin.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/components/my/about-us/logo.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/components/my/about-us/td-logo.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/components/my/bookDetail" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/components/my/mine/icon_address.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/components/my/mine/icon_bookAdmin.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/components/my/mine/icon_card.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/components/my/mine/icon_feedback.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/components/my/mine/icon_myOrder.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/components/my/mine/icon_question.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/components/my/mine/icon_us.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/components/my/mine/logoDefault.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/components/my/mine/peopleMg.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/components/my/mine/service.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/components/my/myInfo/pwd.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/components/my/peopleDetail" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/components/my/peopleDetail/girl.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/components/my/peopleList" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/components/my/peopleList/vip.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/components/my/peopleMg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/components/my/peopleSearch" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/components/my/problem/question.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/components/my/problemDetail" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/components/my/seriesBook" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/components/my/service" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/components/my/service/vip-pic.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/components/my/twoCode" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/components/my/twoCode/girl.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/components/my/vip/vip-pic.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/components/sign" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/components/sign/code.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/components/sign/login_bg.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/components/sign/moyue_logo.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/components/sign/phone.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/components/sign/pwd.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/store" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/api/chooseBook.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/api/config.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/api/friends.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/api/home.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/api/scan.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/api/url.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/api/user.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/base/borrowControl/borrowControl.vue" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/base/confirm/confirm.vue" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/base/dialog-mask/dialog-mask.vue" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/base/dialog-prompt/dialog-prompt.vue" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/base/footer-tab/footer-tab.vue" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/base/input-box/input-box.vue" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/base/left-slide/leftslider.vue" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/base/loading/loading.vue" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/base/no-result/no-result.vue" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/base/progress-bar/progress-bar.vue" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/base/progress-circle/progress-circle.vue" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/base/scroll/scroll.vue" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/base/search-box/search-box.vue" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/base/split/split.vue" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/base/textarea/textarea.vue" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/common/css/iconfont.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/common/fonts/iconfont.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/common/js/audioClass.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/common/js/cache.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/common/js/contentClass.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/common/js/dom.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/common/js/lineClass.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/common/js/time.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/common/js/trim.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/components/chooseBooks/bookFilter/bookFilter.vue" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/components/chooseBooks/booklist/booklist.vue" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/components/friends/comment/comment-sub.vue" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/components/home/bookList/booklist.vue" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/components/home/homeSearch/homeSearch.vue" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/components/home/homeType/homeType.vue" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/components/home/homelist/homelist.vue" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/components/home/listenList/listenList.vue" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/components/home/player/player.vue" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/components/login/findPwdFirst.vue" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/components/login/findPwdSecond.vue" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/components/login/login.vue" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/components/my/bookDetail/bookDetail.vue" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/components/my/myInfo/updataPwd.vue" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/components/my/peopleDetail/peopleDetail.vue" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/components/my/peopleList/peopleList.vue" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/components/my/peopleMg/peopleMg.vue" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/components/my/peopleSearch/peopleSearch.vue" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/components/my/problemDetail/problemDetail.vue" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/components/my/seriesBook/seriesBook.vue" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/components/my/service/service.vue" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/components/my/twoCode/twoCode.vue" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/components/sign/sign.vue" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/store/actions.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/store/getters.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/store/index.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/store/mutation-types.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/store/mutations.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/store/state.js" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/components/chooseBooks/bookSearch/searchDeatil.vue" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/components/chooseBooks/filterDetail/filterDetail.vue" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/components/chooseBooks/orderSuccess/comfirmPay.vue" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/components/chooseBooks/scanDetail/scanDetail.vue" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/components/friends/friendsContent/friendsContent.vue" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/components/home/listenBook/listenBook.vue" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/components/home/listenDetail/listenDetail.vue" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/components/home/readBook/readBook.vue" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/components/my/address/address.vue" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/components/my/bank/bank.vue" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/components/my/books-manage/booksManagement.vue" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/components/my/library/library.vue" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/components/my/mine/mys.vue" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/components/my/money/money.vue" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/components/my/recharge/recharge.vue" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/components/my/test/test.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/components/my/withdrawals/withdrawals.vue" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/components/scan/scan.vue" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/components/chooseBooks/filterDetail" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/components/chooseBooks/scanDetail" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/components/friends/friendsContent" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/components/home/listenBook" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/components/home/listenDetail" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/components/home/readBook" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/components/my/address" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/components/my/bank" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/components/my/library" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/components/my/mine/logo.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/components/my/money" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/components/my/mys/logo.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/components/my/recharge" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/components/my/test" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/components/my/withdrawals" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/components/scan" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resource/标注/1我的 家长_spec.png" afterPath="$PROJECT_DIR$/resource/标注/1我的 家长_spec.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/components/my/login/code.png" afterPath="$PROJECT_DIR$/src/components/my/login/code.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/components/my/login/fxz_logo.png" afterPath="$PROJECT_DIR$/src/components/my/login/fxz_logo.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/components/my/login/login_bg.png" afterPath="$PROJECT_DIR$/src/components/my/login/login_bg.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/components/my/login/phone.png" afterPath="$PROJECT_DIR$/src/components/my/login/phone.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/components/my/login/pwd.png" afterPath="$PROJECT_DIR$/src/components/my/login/pwd.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/components/my/peopleSearchResult/girl.png" afterPath="$PROJECT_DIR$/src/components/my/peopleSearchResult/girl.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/components/my/peopleSearchResult/vip.png" afterPath="$PROJECT_DIR$/src/components/my/peopleSearchResult/vip.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/components/my/sign/code.png" afterPath="$PROJECT_DIR$/src/components/my/sign/code.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/components/my/sign/fxz_logo.png" afterPath="$PROJECT_DIR$/src/components/my/sign/fxz_logo.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/components/my/sign/login_bg.png" afterPath="$PROJECT_DIR$/src/components/my/sign/login_bg.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/components/my/sign/phone.png" afterPath="$PROJECT_DIR$/src/components/my/sign/phone.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/components/my/sign/pwd.png" afterPath="$PROJECT_DIR$/src/components/my/sign/pwd.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.eslintrc.js" afterPath="$PROJECT_DIR$/.eslintrc.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/build.js" afterPath="$PROJECT_DIR$/build/build.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/dev-server.js" afterPath="$PROJECT_DIR$/build/dev-server.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/utils.js" afterPath="$PROJECT_DIR$/build/utils.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/webpack.base.conf.js" afterPath="$PROJECT_DIR$/build/webpack.base.conf.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/config/index.js" afterPath="$PROJECT_DIR$/config/index.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/package.json" afterPath="$PROJECT_DIR$/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/App.vue" afterPath="$PROJECT_DIR$/src/App.vue" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/components/chooseBooks/bookDetail/bookDetail.vue" afterPath="$PROJECT_DIR$/src/components/chooseBooks/bookDetail/bookDetail.vue" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/components/chooseBooks/borrowStand/borrowStand.vue" afterPath="$PROJECT_DIR$/src/components/chooseBooks/borrowStand/borrowStand.vue" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/components/chooseBooks/seriesBook/seriesBook.vue" afterPath="$PROJECT_DIR$/src/components/chooseBooks/seriesBook/seriesBook.vue" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/components/friends/release/release.vue" afterPath="$PROJECT_DIR$/src/components/friends/release/release.vue" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/components/home/line/line.vue" afterPath="$PROJECT_DIR$/src/components/home/line/line.vue" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/components/home/more/more.vue" afterPath="$PROJECT_DIR$/src/components/home/more/more.vue" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/components/home/readDetail/readDetail.vue" afterPath="$PROJECT_DIR$/src/components/home/readDetail/readDetail.vue" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/components/my/about-us/aboutAs.vue" afterPath="$PROJECT_DIR$/src/components/my/about-us/aboutAs.vue" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/components/my/collection/collection.vue" afterPath="$PROJECT_DIR$/src/components/my/collection/collection.vue" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/components/my/feedback/feedback.vue" afterPath="$PROJECT_DIR$/src/components/my/feedback/feedback.vue" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/components/my/myInfo/myInfo.vue" afterPath="$PROJECT_DIR$/src/components/my/myInfo/myInfo.vue" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/components/my/order/order.vue" afterPath="$PROJECT_DIR$/src/components/my/order/order.vue" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/components/my/problem/problem.vue" afterPath="$PROJECT_DIR$/src/components/my/problem/problem.vue" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/components/my/vip/vip.vue" afterPath="$PROJECT_DIR$/src/components/my/vip/vip.vue" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main.js" afterPath="$PROJECT_DIR$/src/main.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/router/index.js" afterPath="$PROJECT_DIR$/src/router/index.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/css/reset.css" afterPath="$PROJECT_DIR$/static/css/reset.css" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/components/chooseBooks/chooseBooks.vue" afterPath="$PROJECT_DIR$/src/components/chooseBooks/index/chooseBooks.vue" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/components/chooseBooks/comfirmPay/comfirmPay.vue" afterPath="$PROJECT_DIR$/src/components/chooseBooks/orderSuccess/orderSuccess.vue" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/components/chooseBooks/searchDetail/searchDeatil.vue" afterPath="$PROJECT_DIR$/src/components/chooseBooks/bookSearch/bookSearch.vue" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/components/friends/friends.vue" afterPath="$PROJECT_DIR$/src/components/friends/friends/friends.vue" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/components/home/home.vue" afterPath="$PROJECT_DIR$/src/components/home/index/home.vue" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/components/my/books-management/booksManagement.vue" afterPath="$PROJECT_DIR$/src/components/my/books-manage/books-manage.vue" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/components/my/mys/mys.vue" afterPath="$PROJECT_DIR$/src/components/my/mine/mine.vue" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/components/chooseBooks/comfirmPay" afterPath="$PROJECT_DIR$/src/components/chooseBooks/orderSuccess" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/components/chooseBooks/searchDetail" afterPath="$PROJECT_DIR$/src/components/chooseBooks/bookSearch" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/components/my/books-management" afterPath="$PROJECT_DIR$/src/components/my/books-manage" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/components/my/mys" afterPath="$PROJECT_DIR$/src/components/my/mine" />
+    </list>
+    <ignored path="$PROJECT_DIR$/.tmp/" />
+    <ignored path="$PROJECT_DIR$/temp/" />
+    <ignored path="$PROJECT_DIR$/tmp/" />
+    <ignored path=".idea/" />
+    <ignored path="node_modules/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
+  <component name="FavoritesManager">
+    <favorites_list name="book-vue" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="friends.vue" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/components/friends/friends/friends.vue">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="7965">
+              <caret line="295" column="58" lean-forward="false" selection-start-line="295" selection-start-column="58" selection-end-line="295" selection-end-column="58" />
+              <folding>
+                <element signature="e#3990#4029#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="mine.vue" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/components/my/mine/mine.vue">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="5238">
+              <caret line="199" column="12" lean-forward="false" selection-start-line="199" selection-start-column="6" selection-end-line="199" selection-end-column="12" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="myInfo.vue" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/components/my/myInfo/myInfo.vue">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="5211">
+              <caret line="202" column="43" lean-forward="false" selection-start-line="202" selection-start-column="43" selection-end-line="202" selection-end-column="43" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="bookDetail.vue" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/components/chooseBooks/bookDetail/bookDetail.vue">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="217">
+              <caret line="174" column="60" lean-forward="false" selection-start-line="174" selection-start-column="50" selection-end-line="174" selection-end-column="60" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="cache.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/common/js/cache.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1485">
+              <caret line="55" column="33" lean-forward="false" selection-start-line="55" selection-start-column="21" selection-end-line="55" selection-end-column="33" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="user.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/api/user.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="9504">
+              <caret line="356" column="23" lean-forward="false" selection-start-line="356" selection-start-column="14" selection-end-line="356" selection-end-column="23" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="url.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/api/url.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="108">
+              <caret line="4" column="0" lean-forward="false" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="scan.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/api/scan.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="891">
+              <caret line="36" column="14" lean-forward="false" selection-start-line="36" selection-start-column="14" selection-end-line="36" selection-end-column="14" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="home.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/api/home.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding>
+                <element signature="n#!!doc" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="friends.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/api/friends.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding>
+                <element signature="n#!!doc" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="CSS File" />
+        <option value="JavaScript File" />
+        <option value="Vue File " />
+        <option value="Vue" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>circle-2</find>
+      <find>,</find>
+      <find>jweixin</find>
+      <find>checkJsApi</find>
+      <find>_changefriendsList</find>
+      <find>commentId</find>
+      <find>back</find>
+      <find>showFlag</find>
+      <find>onContentChange</find>
+      <find>commentSub</find>
+      <find>preview</find>
+      <find>c</find>
+      <find>catch</find>
+      <find>goRelease</find>
+      <find>address</find>
+      <find>BookSearch</find>
+      <find>chooseBooks</find>
+      <find>noRefresh</find>
+      <find>release</find>
+      <find>dialogMask</find>
+      <find>maskText</find>
+      <find>runCamera</find>
+      <find>isLoad</find>
+      <find>isload</find>
+      <find>readSelectItem</find>
+      <find>hasOwnProperty</find>
+      <find>previewImage</find>
+      <find>fxz_address</find>
+      <find>myInfo</find>
+      <find>bookDetail</find>
+    </findStrings>
+    <replaceStrings>
+      <replace>fff</replace>
+      <replace>#00a0e9</replace>
+      <replace>#a2d2e8</replace>
+      <replace>#00a9e4</replace>
+      <replace />
+    </replaceStrings>
+    <dirStrings>
+      <dir>E:\project\book-vue\node_modules</dir>
+      <dir>F:\mmd\book-vue\src</dir>
+    </dirStrings>
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/index.html" />
+        <option value="$PROJECT_DIR$/src/base/dialog-mask/dialog-mask.vue" />
+        <option value="$PROJECT_DIR$/src/components/my/feedback/feedback.vue" />
+        <option value="$PROJECT_DIR$/src/App.vue" />
+        <option value="$PROJECT_DIR$/src/components/my/peopleMg/peopleMg.vue" />
+        <option value="$PROJECT_DIR$/src/base/textarea/textarea.vue" />
+        <option value="$PROJECT_DIR$/src/base/left-slide/leftslider.vue" />
+        <option value="$PROJECT_DIR$/src/components/my/peopleList/peopleList.vue" />
+        <option value="$PROJECT_DIR$/src/components/my/peopleDetail/peopleDetail.vue" />
+        <option value="$PROJECT_DIR$/src/components/my/service/service.vue" />
+        <option value="$USER_HOME$/AppData/Local/Temp/time.qq.com.url" />
+        <option value="$PROJECT_DIR$/src/api/config.js" />
+        <option value="$PROJECT_DIR$/src/api/scan.js" />
+        <option value="$PROJECT_DIR$/src/base/confirm/confirm.vue" />
+        <option value="$PROJECT_DIR$/src/base/borrowControl/borrowControl.vue" />
+        <option value="$PROJECT_DIR$/src/store/mutations.js" />
+        <option value="$PROJECT_DIR$/src/components/my/mine/mine.vue" />
+        <option value="$PROJECT_DIR$/src/components/my/vip/vip.vue" />
+        <option value="$PROJECT_DIR$/src/components/chooseBooks/bookFilter/bookFilter.vue" />
+        <option value="$PROJECT_DIR$/src/components/chooseBooks/borrowStand/borrowStand.vue" />
+        <option value="$PROJECT_DIR$/src/components/chooseBooks/orderSuccess/orderSuccess.vue" />
+        <option value="$PROJECT_DIR$/src/components/my/order/order.vue" />
+        <option value="$PROJECT_DIR$/src/base/couter/couter.vue" />
+        <option value="$PROJECT_DIR$/src/api/user.js" />
+        <option value="$PROJECT_DIR$/config/index.js" />
+        <option value="$PROJECT_DIR$/src/main.js" />
+        <option value="$PROJECT_DIR$/src/api/home.js" />
+        <option value="$PROJECT_DIR$/src/components/home/homeType/homeType.vue" />
+        <option value="$PROJECT_DIR$/src/api/friends.js" />
+        <option value="$PROJECT_DIR$/src/components/home/listenList/listenList.vue" />
+        <option value="$PROJECT_DIR$/src/store/actions.js" />
+        <option value="$PROJECT_DIR$/src/components/chooseBooks/booklist/booklist.vue" />
+        <option value="$PROJECT_DIR$/src/common/js/audioClass.js" />
+        <option value="$PROJECT_DIR$/src/components/home/bookList/booklist.vue" />
+        <option value="$PROJECT_DIR$/src/components/login/login.vue" />
+        <option value="$PROJECT_DIR$/src/components/home/index/home.vue" />
+        <option value="$PROJECT_DIR$/src/router/index.js" />
+        <option value="$PROJECT_DIR$/src/components/home/readDetail/readDetail.vue" />
+        <option value="$PROJECT_DIR$/src/components/home/player/player.vue" />
+        <option value="$PROJECT_DIR$/src/components/chooseBooks/index/chooseBooks.vue" />
+        <option value="$PROJECT_DIR$/src/base/footer-tab/footer-tab.vue" />
+        <option value="$PROJECT_DIR$/src/components/sign/sign.vue" />
+        <option value="$PROJECT_DIR$/src/components/login/findPwdFirst.vue" />
+        <option value="$PROJECT_DIR$/src/components/chooseBooks/bookDetail/bookDetail.vue" />
+        <option value="$PROJECT_DIR$/src/components/my/myInfo/myInfo.vue" />
+        <option value="$PROJECT_DIR$/src/components/home/homelist/homelist.vue" />
+        <option value="$PROJECT_DIR$/src/components/friends/comment/comment-sub.vue" />
+        <option value="$PROJECT_DIR$/src/components/friends/friends/friends.vue" />
+        <option value="$PROJECT_DIR$/src/components/friends/release/release.vue" />
+        <option value="$PROJECT_DIR$/src/api/url.js" />
+        <option value="$PROJECT_DIR$/src/api/chooseBook.js" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER">
+    <package-json value="$PROJECT_DIR$/package.json" />
+  </component>
+  <component name="JsFlowSettings">
+    <service-enabled>false</service-enabled>
+    <exe-path />
+    <annotation-enable>false</annotation-enable>
+    <other-services-enabled>false</other-services-enabled>
+  </component>
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="NodeModulesDirectoryManager">
+    <handled-path value="$PROJECT_DIR$/node_modules" />
+  </component>
+  <component name="ProjectFrameBounds">
+    <option name="x" value="-8" />
+    <option name="y" value="-8" />
+    <option name="width" value="1616" />
+    <option name="height" value="876" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator currentView="ProjectPane" proportions="" version="1">
+      <flattenPackages />
+      <showMembers />
+      <showModules />
+      <showLibraryContents />
+      <hideEmptyPackages />
+      <abbreviatePackageNames />
+      <autoscrollToSource />
+      <autoscrollFromSource />
+      <sortByType />
+      <manualOrder />
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scope" />
+      <pane id="ProjectPane">
+        <subPane>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="book-vue" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="book-vue" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="book-vue" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="book-vue" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="static" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="book-vue" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="book-vue" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="book-vue" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="book-vue" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="store" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="book-vue" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="book-vue" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="router" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="book-vue" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="book-vue" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="components" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="book-vue" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="book-vue" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="components" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="my" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="book-vue" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="book-vue" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="components" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="my" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="myInfo" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="book-vue" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="book-vue" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="components" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="friends" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="book-vue" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="book-vue" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="components" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="friends" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="friends" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="book-vue" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="book-vue" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="components" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="chooseBooks" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="book-vue" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="book-vue" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="components" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="chooseBooks" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="bookDetail" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+      </pane>
+      <pane id="Scratches" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="HbShouldOpenHtmlAsHb" value="" />
+    <property name="node.js.path.for.package.eslint" value="C:/Program Files/nodejs/node" />
+    <property name="nodejs_interpreter_path" value="D:/Program Files/nodejs/node" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.selected.package.eslint" value="F:\mmd\book-vue\node_modules\eslint" />
+    <property name="settings.editor.selected.configurable" value="preferences.keymap" />
+    <property name="standardjs.codestyle.accepted" value="true" />
+    <property name="list.type.of.created.stylesheet" value="CSS" />
+    <property name="SearchEverywhereHistoryKey" value="r&#9;FILE&#9;file://E:/project/book-vue/README.md" />
+    <property name="node.js.path.for.package.standard" value="C:/Program Files/nodejs/node" />
+    <property name="node.js.detected.package.standard" value="true" />
+    <property name="node.js.selected.package.standard" value="F:\mmd\book-vue\node_modules\eslint" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\timofun\project\book-vue\src\components\home\bookList" />
+      <recent name="C:\timofun\project\book-vue\src\components\my\service" />
+      <recent name="C:\timofun\project\book-vue\src\components\home\readDetail" />
+      <recent name="C:\timofun\project\book-vue\src\components\my\vip" />
+      <recent name="C:\timofun\project\book-vue\src\components\my\twoCode" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="F:\mmd\book-vue\src\components\home" />
+      <recent name="F:\mmd\book-vue\src\components\home\bookList" />
+      <recent name="E:\project\book-vue\src\components\friends\friends" />
+      <recent name="E:\project\book-vue\src\common\css" />
+      <recent name="E:\project\book-vue\src\components\home\home" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager">
+    <configuration default="true" type="DartCommandLineRunConfigurationType" factoryName="Dart Command Line Application">
+      <method />
+    </configuration>
+    <configuration default="true" type="DartTestRunConfigurationType" factoryName="Dart Test">
+      <method />
+    </configuration>
+    <configuration default="true" type="JavaScriptTestRunnerJest" factoryName="Jest">
+      <node-interpreter value="project" />
+      <working-dir value="" />
+      <envs />
+      <scope-kind value="ALL" />
+      <method />
+    </configuration>
+    <configuration default="true" type="JavaScriptTestRunnerKarma" factoryName="Karma">
+      <config-file value="" />
+      <node-interpreter value="project" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="JavaScriptTestRunnerProtractor" factoryName="Protractor">
+      <config-file value="" />
+      <node-interpreter value="project" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="JavascriptDebugType" factoryName="JavaScript Debug">
+      <method />
+    </configuration>
+    <configuration default="true" type="NodeJSConfigurationType" factoryName="Node.js" path-to-node="project" working-dir="">
+      <method />
+    </configuration>
+    <configuration default="true" type="cucumber.js" factoryName="Cucumber.js">
+      <option name="cucumberJsArguments" value="" />
+      <option name="executablePath" />
+      <option name="filePath" />
+      <method />
+    </configuration>
+    <configuration default="true" type="js.build_tools.gulp" factoryName="Gulp.js">
+      <node-interpreter>project</node-interpreter>
+      <node-options />
+      <gulpfile />
+      <tasks />
+      <arguments />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="js.build_tools.npm" factoryName="npm">
+      <command value="run" />
+      <scripts />
+      <node-interpreter value="project" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="mocha-javascript-test-runner" factoryName="Mocha">
+      <node-interpreter>project</node-interpreter>
+      <node-options />
+      <working-directory />
+      <pass-parent-env>true</pass-parent-env>
+      <envs />
+      <ui />
+      <extra-mocha-options />
+      <test-kind>DIRECTORY</test-kind>
+      <test-directory />
+      <recursive>false</recursive>
+      <method />
+    </configuration>
+  </component>
+  <component name="ShelveChangesManager" show_recycled="false">
+    <option name="remove_strategy" value="false" />
+  </component>
+  <component name="SvnConfiguration" cleanupOnStartRun="true">
+    <configuration>C:\Users\Administrator\AppData\Roaming\Subversion</configuration>
+    <supportedVersion>125</supportedVersion>
+  </component>
+  <component name="SvnFileUrlMappingImpl">
+    <option name="myMappingRoots">
+      <list>
+        <SvnCopyRootSimple>
+          <option name="myVcsRoot" value="F:\mmd\book-vue" />
+          <option name="myCopyRoot" value="F:\mmd\book-vue" />
+        </SvnCopyRootSimple>
+      </list>
+    </option>
+    <option name="myMoreRealMappingRoots">
+      <list>
+        <SvnCopyRootSimple>
+          <option name="myVcsRoot" value="F:\mmd\book-vue" />
+          <option name="myCopyRoot" value="F:\mmd\book-vue" />
+        </SvnCopyRootSimple>
+      </list>
+    </option>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="dd2b5ebf-68dd-43ab-a517-02151bf09d15" name="Default" comment="" />
+      <created>1496370888707</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1496370888707</updated>
+      <workItem from="1496370890207" duration="1275000" />
+      <workItem from="1496372207133" duration="6101000" />
+      <workItem from="1496624646218" duration="3681000" />
+      <workItem from="1496628425540" duration="22911000" />
+      <workItem from="1496711096718" duration="6224000" />
+      <workItem from="1496717706093" duration="17408000" />
+      <workItem from="1496797550249" duration="11457000" />
+      <workItem from="1496884857104" duration="16332000" />
+      <workItem from="1496984058817" duration="7649000" />
+      <workItem from="1497230060715" duration="78000" />
+      <workItem from="1497230199097" duration="12142000" />
+      <workItem from="1497315867494" duration="2543000" />
+      <workItem from="1497403944434" duration="13491000" />
+      <workItem from="1497489089706" duration="18002000" />
+      <workItem from="1497575826268" duration="12709000" />
+      <workItem from="1497837502154" duration="2792000" />
+      <workItem from="1497842074835" duration="9246000" />
+      <workItem from="1497921649767" duration="16244000" />
+      <workItem from="1498007231299" duration="1778000" />
+      <workItem from="1498094337252" duration="14824000" />
+      <workItem from="1498181441969" duration="20190000" />
+      <workItem from="1498439683711" duration="22139000" />
+      <workItem from="1498525897655" duration="19438000" />
+      <workItem from="1498613139375" duration="16556000" />
+      <workItem from="1498700349234" duration="12592000" />
+      <workItem from="1498786293418" duration="17295000" />
+      <workItem from="1499044041656" duration="15373000" />
+      <workItem from="1499131017427" duration="23905000" />
+      <workItem from="1499216673269" duration="30156000" />
+      <workItem from="1499303402966" duration="30176000" />
+      <workItem from="1499389969920" duration="23961000" />
+      <workItem from="1499648002234" duration="22836000" />
+      <workItem from="1499735066504" duration="18994000" />
+      <workItem from="1499821728918" duration="28041000" />
+      <workItem from="1499859975423" duration="35000" />
+      <workItem from="1499909533040" duration="22087000" />
+      <workItem from="1499995140295" duration="867000" />
+      <workItem from="1500006714177" duration="10138000" />
+      <workItem from="1500253636810" duration="592000" />
+      <workItem from="1500256374541" duration="17812000" />
+      <workItem from="1500341242151" duration="30569000" />
+      <workItem from="1500426963186" duration="19735000" />
+      <workItem from="1500513723950" duration="6038000" />
+      <workItem from="1500537343065" duration="10934000" />
+      <workItem from="1500599356291" duration="11938000" />
+      <workItem from="1500873020274" duration="21690000" />
+      <workItem from="1500944908664" duration="19047000" />
+      <workItem from="1501031264980" duration="24335000" />
+      <workItem from="1501117946654" duration="31149000" />
+      <workItem from="1501204071095" duration="24463000" />
+      <workItem from="1501463328131" duration="21394000" />
+      <workItem from="1501551787654" duration="20920000" />
+      <workItem from="1501636647402" duration="24094000" />
+      <workItem from="1501723176210" duration="18912000" />
+      <workItem from="1501809531100" duration="30565000" />
+      <workItem from="1501912199484" duration="9096000" />
+      <workItem from="1502068230066" duration="8631000" />
+      <workItem from="1502093967550" duration="1338000" />
+      <workItem from="1502100051758" duration="6373000" />
+      <workItem from="1502120286972" duration="7637000" />
+      <workItem from="1502155528601" duration="28215000" />
+      <workItem from="1502212929465" duration="9722000" />
+      <workItem from="1502241271274" duration="13625000" />
+      <workItem from="1502264646830" duration="3961000" />
+      <workItem from="1502270131831" duration="4113000" />
+      <workItem from="1502330852094" duration="21489000" />
+      <workItem from="1502358560306" duration="5081000" />
+      <workItem from="1502374477026" duration="392000" />
+      <workItem from="1502375211977" duration="602000" />
+      <workItem from="1502379073952" duration="4000" />
+      <workItem from="1502415547596" duration="10212000" />
+      <workItem from="1502434804595" duration="9322000" />
+      <workItem from="1502674119818" duration="7707000" />
+      <workItem from="1502692167643" duration="9072000" />
+      <workItem from="1502760494516" duration="11935000" />
+      <workItem from="1502847356486" duration="6376000" />
+      <workItem from="1502867546045" duration="7639000" />
+      <workItem from="1502933104189" duration="9323000" />
+      <workItem from="1502949943889" duration="17527000" />
+      <workItem from="1503024755183" duration="8269000" />
+      <workItem from="1503034077584" duration="861000" />
+      <workItem from="1503277923095" duration="6888000" />
+      <workItem from="1503309041012" duration="59000" />
+      <workItem from="1503383191786" duration="12007000" />
+      <workItem from="1503454758706" duration="13025000" />
+      <workItem from="1503555056669" duration="5652000" />
+      <workItem from="1503575688916" duration="3545000" />
+      <workItem from="1503623223499" duration="1936000" />
+      <workItem from="1503728219879" duration="1028000" />
+      <workItem from="1503906607913" duration="11878000" />
+      <workItem from="1504056481680" duration="4674000" />
+      <workItem from="1504062282082" duration="4093000" />
+      <workItem from="1504073062958" duration="5936000" />
+      <workItem from="1504144520951" duration="2191000" />
+      <workItem from="1504171578316" duration="4053000" />
+      <workItem from="1504230527574" duration="8319000" />
+      <workItem from="1504249102893" duration="10506000" />
+      <workItem from="1504506591983" duration="39000" />
+      <workItem from="1504512359182" duration="123000" />
+      <workItem from="1504513578999" duration="981000" />
+      <workItem from="1504517614583" duration="1477000" />
+      <workItem from="1504597143178" duration="1783000" />
+      <workItem from="1504602215056" duration="3664000" />
+      <workItem from="1504665345206" duration="1507000" />
+      <workItem from="1504670199855" duration="193000" />
+      <workItem from="1504837747842" duration="1256000" />
+      <workItem from="1504849615174" duration="434000" />
+      <workItem from="1504851640094" duration="6071000" />
+      <workItem from="1505465345142" duration="256000" />
+      <workItem from="1505699761834" duration="4567000" />
+      <workItem from="1505714906315" duration="1949000" />
+      <workItem from="1505796043056" duration="632000" />
+      <workItem from="1505872910112" duration="892000" />
+      <workItem from="1505980397902" duration="109000" />
+      <workItem from="1505980515020" duration="2864000" />
+      <workItem from="1506303346468" duration="7000" />
+      <workItem from="1507787978526" duration="4938000" />
+      <workItem from="1507861960795" duration="4922000" />
+      <workItem from="1508116953112" duration="3497000" />
+      <workItem from="1508122830011" duration="1523000" />
+      <workItem from="1508202433109" duration="1747000" />
+      <workItem from="1508288722670" duration="1194000" />
+      <workItem from="1508375528950" duration="600000" />
+      <workItem from="1508743331862" duration="441000" />
+      <workItem from="1509518644979" duration="181000" />
+      <workItem from="1509585591053" duration="5777000" />
+      <workItem from="1509606316675" duration="836000" />
+      <workItem from="1509607698042" duration="2296000" />
+      <workItem from="1509958711392" duration="6371000" />
+      <workItem from="1510015867082" duration="604000" />
+      <workItem from="1510017703312" duration="3890000" />
+      <workItem from="1510192624014" duration="6371000" />
+      <workItem from="1510203164090" duration="11252000" />
+      <workItem from="1510278934704" duration="6409000" />
+      <workItem from="1510301928526" duration="601000" />
+      <workItem from="1510535523258" duration="7475000" />
+      <workItem from="1510557376508" duration="451000" />
+      <workItem from="1510629538803" duration="125000" />
+      <workItem from="1510631044159" duration="5350000" />
+      <workItem from="1510726707007" duration="1226000" />
+      <workItem from="1510795359702" duration="15050000" />
+      <workItem from="1510900961844" duration="294000" />
+      <workItem from="1511140140545" duration="983000" />
+      <workItem from="1511141794628" duration="4321000" />
+      <workItem from="1511236161939" duration="7420000" />
+      <workItem from="1511261108569" duration="42000" />
+      <workItem from="1511404746430" duration="31000" />
+      <workItem from="1511501545236" duration="158000" />
+      <workItem from="1511750610738" duration="1944000" />
+      <workItem from="1511860135480" duration="1592000" />
+      <workItem from="1511861947380" duration="218000" />
+      <workItem from="1511862330637" duration="764000" />
+      <workItem from="1511863321089" duration="1394000" />
+      <workItem from="1511865100950" duration="877000" />
+      <workItem from="1511917434686" duration="2458000" />
+      <workItem from="1511921957321" duration="532000" />
+      <workItem from="1511923283724" duration="867000" />
+      <workItem from="1511924579430" duration="29000" />
+      <workItem from="1511927218160" duration="98000" />
+      <workItem from="1512091404001" duration="5592000" />
+      <workItem from="1512116916521" duration="7976000" />
+      <workItem from="1512349391833" duration="2375000" />
+      <workItem from="1512435611100" duration="1870000" />
+      <workItem from="1512464296191" duration="452000" />
+      <workItem from="1512466426815" duration="200000" />
+      <workItem from="1512468511045" duration="1278000" />
+      <workItem from="1512522702111" duration="1686000" />
+      <workItem from="1512528871708" duration="3565000" />
+      <workItem from="1513057709652" duration="2315000" />
+      <workItem from="1513066133561" duration="624000" />
+      <workItem from="1513219559767" duration="1262000" />
+      <workItem from="1513300885095" duration="10000" />
+      <workItem from="1514191602454" duration="2774000" />
+      <workItem from="1515488954954" duration="1005000" />
+      <workItem from="1515724258295" duration="2160000" />
+      <workItem from="1515981107439" duration="1218000" />
+      <workItem from="1515984714427" duration="272000" />
+      <workItem from="1515985005241" duration="11000" />
+      <workItem from="1515986986765" duration="2638000" />
+      <workItem from="1516063012740" duration="1806000" />
+      <workItem from="1516781355015" duration="21000" />
+      <workItem from="1516933096498" duration="653000" />
+      <workItem from="1517972239099" duration="954000" />
+      <workItem from="1519356887380" duration="1729000" />
+      <workItem from="1519435801477" duration="708000" />
+      <workItem from="1519979081785" duration="4000" />
+      <workItem from="1520409838020" duration="901000" />
+      <workItem from="1520489237706" duration="1965000" />
+      <workItem from="1521010158836" duration="127000" />
+      <workItem from="1521096490541" duration="28000" />
+      <workItem from="1521103022122" duration="199000" />
+      <workItem from="1521103302834" duration="614000" />
+    </task>
+    <task id="LOCAL-00001" summary="book1.0">
+      <created>1496730021234</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1496730021234</updated>
+    </task>
+    <task id="LOCAL-00002" summary="book1.0">
+      <created>1496731285490</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1496731285490</updated>
+    </task>
+    <task id="LOCAL-00003" summary="订单提交">
+      <created>1496739707440</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1496739707440</updated>
+    </task>
+    <task id="LOCAL-00004" summary="扫描页">
+      <created>1496739732188</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1496739732188</updated>
+    </task>
+    <task id="LOCAL-00005" summary="扫描页">
+      <created>1496739756128</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1496739756128</updated>
+    </task>
+    <task id="LOCAL-00006" summary="选书页面新增子页面">
+      <created>1496801745563</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1496801745563</updated>
+    </task>
+    <task id="LOCAL-00007" summary="选书页面新增子页面">
+      <created>1496804641911</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1496804641911</updated>
+    </task>
+    <task id="LOCAL-00008" summary="首页新增子页面">
+      <created>1496805034422</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1496805034423</updated>
+    </task>
+    <task id="LOCAL-00009" summary="保持路由">
+      <created>1496912791666</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1496912791666</updated>
+    </task>
+    <task id="LOCAL-00010" summary="更换路由文件">
+      <created>1497429514067</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1497429514067</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="1375110000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-8" y="-8" width="1616" height="876" extended-state="6" />
+    <editor active="true" />
+    <layout>
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.19961977" sideWeight="0.4955157" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="调试" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="12" side_tool="true" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.5677462" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="npm" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="运行" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.36473754" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24953583" sideWeight="0.5044843" order="3" side_tool="true" content_ui="tabs" />
+      <window_info id="SVN Repositories" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25168237" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32974428" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="TypeScript" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3291474" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="找到" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="13" side_tool="false" content_ui="tabs" />
+    </layout>
+    <layout-to-restore>
+      <window_info id="SVN Repositories" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25168237" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="调试" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32974428" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="14" side_tool="true" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.5677462" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="npm" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4347241" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
+      <window_info id="运行" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="TypeScript" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="13" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.20278834" sideWeight="0.4955157" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3291474" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24953583" sideWeight="0.5044843" order="3" side_tool="true" content_ui="tabs" />
+      <window_info id="找到" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="15" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+    </layout-to-restore>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="processedProjectFiles" value="true" />
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="book1.0" />
+    <MESSAGE value="订单提交" />
+    <MESSAGE value="扫描页" />
+    <MESSAGE value="选书页面新增子页面" />
+    <MESSAGE value="首页新增子页面" />
+    <MESSAGE value="保持路由" />
+    <MESSAGE value="更换路由文件" />
+    <option name="LAST_COMMIT_MESSAGE" value="更换路由文件" />
+    <option name="CHANGE_BROWSER_SETTINGS">
+      <map>
+        <entry key="svn">
+          <value>
+            <ChangeBrowserSettings />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/src/components/login/login.vue</url>
+          <line>128</line>
+          <option name="timeStamp" value="12" />
+        </line-breakpoint>
+      </breakpoints>
+      <option name="time" value="13" />
+    </breakpoint-manager>
+    <watches-manager />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/components/login/findPwdSecond.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3957">
+          <caret line="186" column="22" lean-forward="false" selection-start-line="186" selection-start-column="22" selection-end-line="186" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/sign/sign.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="288">
+          <caret line="87" column="23" lean-forward="false" selection-start-line="87" selection-start-column="23" selection-end-line="87" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/login/findPwdFirst.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="587">
+          <caret line="99" column="20" lean-forward="true" selection-start-line="99" selection-start-column="20" selection-end-line="99" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/base/scroll/scroll.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="217">
+          <caret line="95" column="6" lean-forward="false" selection-start-line="95" selection-start-column="6" selection-end-line="97" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/base/borrowControl/borrowControl.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1269">
+          <caret line="47" column="36" lean-forward="false" selection-start-line="47" selection-start-column="36" selection-end-line="47" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/store/getters.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="189">
+          <caret line="7" column="51" lean-forward="false" selection-start-line="7" selection-start-column="41" selection-end-line="7" selection-end-column="51" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/store/actions.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="8" column="10" lean-forward="false" selection-start-line="8" selection-start-column="10" selection-end-line="8" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/home/homelist/homelist.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3807">
+          <caret line="146" column="31" lean-forward="false" selection-start-line="146" selection-start-column="31" selection-end-line="146" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/chooseBooks/bookSearch/bookSearch.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-81">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/home/homeSearch/homeSearch.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/chooseBooks/seriesBook/seriesBook.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/chooseBooks/borrowStand/borrowStand.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1188">
+          <caret line="44" column="77" lean-forward="false" selection-start-line="44" selection-start-column="77" selection-end-line="44" selection-end-column="77" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/home/line/line.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/home/line/line.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="405">
+          <caret line="15" column="14" lean-forward="false" selection-start-line="15" selection-start-column="14" selection-end-line="15" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/home/line/no-listen.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/home/listenList/default.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/home/readDetail/default.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dist/static/js/vendor.f13684333eb4c13a5f21.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="233">
+          <caret line="22" column="25807" lean-forward="false" selection-start-line="22" selection-start-column="25807" selection-end-line="22" selection-end-column="25807" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/common/js/contentClass.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="324">
+          <caret line="12" column="37" lean-forward="true" selection-start-line="12" selection-start-column="37" selection-end-line="12" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/common/js/dom.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/common/js/lineClass.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/common/js/time.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/common/js/trim.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/friends/comment/comment-sub.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="216">
+          <caret line="8" column="34" lean-forward="false" selection-start-line="8" selection-start-column="34" selection-end-line="8" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/common/js/audioClass.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="324">
+          <caret line="12" column="24" lean-forward="false" selection-start-line="12" selection-start-column="24" selection-end-line="12" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/friends/release/release.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2565">
+          <caret line="100" column="28" lean-forward="false" selection-start-line="100" selection-start-column="28" selection-end-line="100" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/router/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="6237">
+          <caret line="234" column="18" lean-forward="false" selection-start-line="234" selection-start-column="14" selection-end-line="234" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/home/homeType/homeType.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/home/index/home.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1593">
+          <caret line="59" column="40" lean-forward="false" selection-start-line="59" selection-start-column="40" selection-end-line="59" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/chooseBooks/index/chooseBooks.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="6912">
+          <caret line="265" column="14" lean-forward="false" selection-start-line="265" selection-start-column="3" selection-end-line="265" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/chooseBooks/booklist/booklist.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2700">
+          <caret line="106" column="12" lean-forward="false" selection-start-line="106" selection-start-column="12" selection-end-line="106" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/base/footer-tab/footer-tab.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1620">
+          <caret line="63" column="14" lean-forward="false" selection-start-line="63" selection-start-column="14" selection-end-line="63" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/home/listenList/listenList.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="459">
+          <caret line="17" column="18" lean-forward="false" selection-start-line="17" selection-start-column="11" selection-end-line="17" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/home/bookList/booklist.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1215">
+          <caret line="45" column="22" lean-forward="false" selection-start-line="45" selection-start-column="11" selection-end-line="45" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/home/player/player.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="4617">
+          <caret line="177" column="21" lean-forward="false" selection-start-line="177" selection-start-column="21" selection-end-line="177" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/store/state.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="27">
+          <caret line="3" column="37" lean-forward="false" selection-start-line="3" selection-start-column="25" selection-end-line="3" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/store/mutation-types.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/store/mutations.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/home/readDetail/readDetail.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="405">
+          <caret line="15" column="46" lean-forward="false" selection-start-line="15" selection-start-column="38" selection-end-line="15" selection-end-column="46" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/api/config.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/api/chooseBook.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="432">
+          <caret line="19" column="48" lean-forward="false" selection-start-line="19" selection-start-column="48" selection-end-line="19" selection-end-column="48" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/friends/friends/friends.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="7965">
+          <caret line="295" column="58" lean-forward="false" selection-start-line="295" selection-start-column="58" selection-end-line="295" selection-end-column="58" />
+          <folding>
+            <element signature="e#3990#4029#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/my/mine/mine.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="5238">
+          <caret line="199" column="12" lean-forward="false" selection-start-line="199" selection-start-column="6" selection-end-line="199" selection-end-column="12" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/common/js/cache.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1485">
+          <caret line="55" column="33" lean-forward="false" selection-start-line="55" selection-start-column="21" selection-end-line="55" selection-end-column="33" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/api/user.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="9504">
+          <caret line="356" column="23" lean-forward="false" selection-start-line="356" selection-start-column="14" selection-end-line="356" selection-end-column="23" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/api/url.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="108">
+          <caret line="4" column="0" lean-forward="false" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/api/scan.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="891">
+          <caret line="36" column="14" lean-forward="false" selection-start-line="36" selection-start-column="14" selection-end-line="36" selection-end-column="14" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/api/home.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/api/friends.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/my/myInfo/myInfo.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="5211">
+          <caret line="202" column="43" lean-forward="false" selection-start-line="202" selection-start-column="43" selection-end-line="202" selection-end-column="43" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/chooseBooks/bookDetail/bookDetail.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="217">
+          <caret line="174" column="60" lean-forward="false" selection-start-line="174" selection-start-column="50" selection-end-line="174" selection-end-column="60" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>

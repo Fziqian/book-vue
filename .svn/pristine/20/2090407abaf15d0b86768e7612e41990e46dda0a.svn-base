@@ -1,0 +1,40 @@
+<template>
+  <transition name="move">
+    <div class="bookMg" v-show="isBook">
+      <div>
+        <span @click="goBack"><</span>
+        <span>图书管理</span>
+      </div>
+    </div>
+  </transition>
+</template>
+<script>
+  export default {
+    data () {
+      return {
+        isBook: false,
+        isMy: true
+      }
+    },
+    methods: {
+      show () {
+        this.isBook = true
+      },
+      goBack () {
+        this.isBook = false
+        this.$emit('isMy', this.isMy)
+      }
+    }
+  }
+</script>
+<style>
+  .bookMg{
+    background: #fff;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    z-index:100;
+    top: 0;
+    left: 0
+  }
+</style>
